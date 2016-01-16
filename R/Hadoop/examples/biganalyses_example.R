@@ -9,9 +9,9 @@
 ##############################
 
 # set R environments
-Sys.setenv(HADOOP_CMD="/home/hadoop/bin/hadoop")
-Sys.setenv(HADOOP_STREAMING="/home/hadoop/contrib/streaming/hadoop-streaming.jar")
-Sys.setenv(JAVA_HOME="/usr/java/latest/jre")
+Sys.setenv(HADOOP_CMD="/usr/lib/hadoop/bin/hadoop")
+Sys.setenv(HADOOP_STREAMING="/usr/lib/hadoop/hadoop-streaming.jar")
+Sys.setenv(JAVA_HOME="/etc/alternatives/jre")
 
 # load librarys
 library(rmr2)
